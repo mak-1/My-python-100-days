@@ -13,9 +13,10 @@ horizontal =int(position_str[0])
 vertical =int(position_str[1])
 
 
+selected_row=[vertical-1]
+selected_row[horizontal-1] = 'X'
 
-
-map[vertical-1][horizontal-1] = 'X'
+#map[vertical-1][horizontal-1] = 'X'
 #Write your code above this row 👆
 
 # 🚨 Don't change the code below 👇
