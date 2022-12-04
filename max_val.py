@@ -6,9 +6,9 @@ print(student_scores)
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
-score= student_scores[0]
+highest_score= student_scores[0]
 for scores in student_scores:
-    if score<scores:
+    if highest_score<scores:
         score= scores
 print (f"The highest score in the class is: {score}")
 
